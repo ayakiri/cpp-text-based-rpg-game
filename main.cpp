@@ -2,34 +2,33 @@
 #include <string>
 #include <vector>
 #include <curses.h>
+#include "chapterOne.cpp"
 
-int getKeyboardInput() {
-    char c;
-    initscr();
-    c = getch();
-    endwin();
-    std::cout << c << "\n";
-    return 0;
-}
-
-int main(void) {
+int main(void){
     
-    system("clear");
+    clear();
     
     // Wybranie imienia i rozpoczecie rozgrywki
     
     std::cout << "Hello Adventurer! \n";
     
     std::string name = "Hero";
-    std::cout << "What is your name?";
-    std::cin >> name;
+    std::cout << "What is your name? \n";
+    std::getline(std::cin, name);
     
-    system("clear");
+    clear();
+    
+    // male intro
     
     std::cout << "And here begins the story of a little human known as " << name << "\n \n";
     std::cout << "Will it be a successful tale full of wealth, love and kindness? \n ...Or will it turn grim along the way? \n";
-        
-    getKeyboardInput();
+
+    // chapter 1
+    
+    beginChapterOne();
+    
+    std::cout << "koniec \n";
+
     
     return 0;
 }
