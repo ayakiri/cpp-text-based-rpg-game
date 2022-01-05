@@ -18,7 +18,7 @@ int printPage(){
     return 0;
 }
 
-//do przechodzenia miedzy kartami opowiesci
-int switchPage(){
+//dodaj przedmiot
+int addItem(){
     return 0;
 }
