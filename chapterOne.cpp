@@ -1,5 +1,4 @@
 #include <iostream>
-#include "chaptersMechanics.cpp"
 
 int page1018(){
     system("clear");
@@ -448,7 +447,8 @@ int page1001(){
             page1006();
             break;
         case 3:
-            page1010();
+            //page1010();
+            fightEnemy("Pie");
             break;
     }
     

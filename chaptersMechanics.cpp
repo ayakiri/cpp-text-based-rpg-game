@@ -1,4 +1,7 @@
 #include <iostream>
+#include "classes.cpp"
+
+playerClass newHero;
 
 // do wybierania odpowiedzi
 int pickAnswer(int numberOfOptions){
@@ -13,12 +16,15 @@ int pickAnswer(int numberOfOptions){
     return pickedAnswer;
 }
 
-// do wyswietlania stron
-int printPage(){
-    return 0;
-}
-
-//dodaj przedmiot
-int addItem(){
-    return 0;
+// walka 
+void fightEnemy(std::string necessaryItem){
+    std::cout << "======================\n";
+    std::cout << "==      Fight!      ==\n";
+    std::cout << "======================\n\n";
+    
+    if(newHero.checkItems(necessaryItem)){
+        std::cout << "zyjesz\n";
+    }else {
+        std::cout << "nie zyjesz\n";
+    }
 }
