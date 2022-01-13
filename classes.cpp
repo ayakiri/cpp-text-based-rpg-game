@@ -2,13 +2,40 @@
 #include <vector>
 #include <algorithm>
 
+//strony
+class pageClass {
+    public:
+        int currentPage; 
+        
+};
+
+class answersPageClass{
+    public:
+        int nextPage;
+        int additionalAction;
+        
+        // sprawdz dodatkowa akcje
+                
+        // strona game over - id : 999
+        
+        // strona przedmiotu - id : 888
+        
+        // strona szpitala - id : 777
+        
+        // strona przeciwnika - id : 666
+        
+        // strona wygranej - id : 555
+};
+
 // Gracz
 class playerClass {
     public: 
         std::string name; 
         int health; 
         std::vector <std::string> currentItems; 
+        int currentPage; 
         
+        // stworz bohatera
         void createHero(){
             std::cout << "What is your name? \n";
             std::getline(std::cin, name);
@@ -18,6 +45,7 @@ class playerClass {
             }
             
             health = 100;
+            currentPage = 1001;
     
             system("clear");
         }
