@@ -61,7 +61,7 @@ class playerClass {
             }
             
             isDead = false;
-            health = 100;
+            health = 60;
                 
             system("clear");
         }
@@ -78,5 +78,12 @@ class playerClass {
                     isDead = true;
                 }
                 return isDead;
+            }
+            
+        // ulecz bohatera
+            void heal(int hp){
+                health = health + hp;
+                std::cout << "\nYou have healed your wounds. \n";
+                std::cout << "You currently have " << health << " health points!\n\n";
             }
 };

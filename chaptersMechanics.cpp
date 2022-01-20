@@ -61,6 +61,32 @@ void enemyEncounter(std::string damage, std::string necessaryItem){
     }
 }
 
+// odwiedz szpital
+void visitHospital(std::string restoredHP){
+    std::cout << "You entered the hospital. Here you can restore your health points. \n";
+    std::cout << "This hospital can heal up to " << restoredHP << " health points. \n\n";
+    std::cout << "You currently have " << newHero.health << " health points!\n\n";
+    
+    int maxHealthToRestore;
+    
+    if(100 >= (newHero.health + stoi(restoredHP))){
+        maxHealthToRestore = stoi(restoredHP);
+    }else{
+        maxHealthToRestore = (100 - newHero.health);
+    }
+    
+    std::cout << "Would you like to heal " << maxHealthToRestore << " health points?\n";
+    std::cout << "1: Use hospital\n";
+    std::cout << "2: Don't use hospital\n";
+    
+    int answer = { pickAnswer(2) };
+    
+    if(answer == 1){
+        newHero.heal(maxHealthToRestore);
+    }
+    
+}
+
 // dodaj przedmiot
 void addItem(std::string obtainedItem){
     newHero.currentItems.push_back(obtainedItem);
@@ -77,7 +103,7 @@ void checkAction(std::string action){
             addItem(action.substr(4, action.size()));
             break;
         case 333:
-            
+            visitHospital(action.substr(4, action.size()));
             break;
         case 444:
             enemyEncounter(action.substr(4, 3), action.substr(8, action.size()));

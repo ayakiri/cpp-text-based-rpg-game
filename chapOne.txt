@@ -1,5 +1,5 @@
 0
-"Getting nearer to the palace turned out to be much more stressful than you have previously assumed. Or maybe it wasn’t a journey that was stressful, but rather what awaited you at the end. \n Couple of weeks ago you received a letter. A letter from none other than a king himself!  But what was it about? That’s what you were about to find out, because the letter didn’t explain it - just that it was urgent. \n As you get closer to your destination you decide to look around." << "\n\n" 
+Getting nearer to the palace turned out to be much more stressful than you have previously assumed. Or maybe it wasn’t a journey that was stressful, but rather what awaited you at the end. Couple of weeks ago you received a letter. A letter from none other than a king himself!  But what was it about? That’s what you were about to find out, because the letter didn’t explain it - just that it was urgent. As you get closer to your destination you decide to look around. 
 1: Examine a bakery
 2: Go to the tailor
 3: Don’t go anywhere
@@ -9,7 +9,7 @@
 101
 0
 0
-"Encouraged by the sweet smell of baked pies you walk straight to the local bakery. Apple pies, bagels, cakes, tarts, loafs - just everything your heart can desire. \n WOMAN: “See anything you like?”\nA deep female voice asked, just from behind your shoulders.\n WOMAN: “You don’t look like you are from here? Are you travelling, sweetheart?” \n\n"
+Encouraged by the sweet smell of baked pies you walk straight to the local bakery. Apple pies, bagels, cakes, tarts, loafs - just everything your heart can desire. “See anything you like?” a deep female voice asked, just from behind your shoulders. “You don’t look like you are from here? Are you travelling, sweetheart?” said the woman. 
 1: “I got summoned by a king.”
 2: “I have some business around.”
 3: Say nothing
@@ -19,7 +19,7 @@
 51
 0
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+“A KING?" woman looked at you, as if she had to find at least a small proof of your words. “As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!” woman continued her monologue, getting more excited with every passing second. “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”
 1: Accept the gift
 2: Don't accept the gift and just leave
 0
@@ -39,7 +39,7 @@ Accepting the gift you continue to chat with a woman, but after a while it is a 
 0
 0
 0
-WOMAN: “Business? Well it’s a busy world out there, isn’t it?” \n WOMAN: “Here, take this, don’t go around hungry” \n Looking at a small package you 
+“Business? Well it’s a busy world out there, isn’t it?” woman grew silent for a second. “Here, take this, don’t go around hungry” Looking at a small package you smell something delicious inside.
 1: Accept the gift
 2: Don't accept the gift and just leave
 0
@@ -49,7 +49,7 @@ WOMAN: “Business? Well it’s a busy world out there, isn’t it?” \n WOMAN:
 0
 0
 0
-WOMAN: “Not much of a talker, are you? If you see anything you like just tell me” \n The woman stated, pointing to shelves full of pies. As nothing catches your eye, you turn around and leave.
+“Not much of a talker, are you? If you see anything you like just tell me” the woman stated, pointing to shelves full of pies. As nothing catches your eye, you turn around and leave.
 1: Leave
 0
 0
@@ -59,7 +59,7 @@ WOMAN: “Not much of a talker, are you? If you see anything you like just tell 
 0
 0
 0
-A small and old looking tailor shop catches your eye instantly. In just a short while you found yourself staring at unusual garments. \n TAILOR: “Don’t you dare steal a single thing, tourist!” \n A grumpy voice from behind you warned you. It looks like it belongs to the shop owner - and the only other person in the room right now. 
+A small and old looking tailor shop catches your eye instantly. In just a short while you found yourself staring at unusual garments. “Don’t you dare steal a single thing, tourist!” a grumpy voice from behind you warned you. It looks like it belongs to the shop owner - and the only other person in the room right now. 
 1: “Well, nobody will see a thing, right? Or do you think YOU can stop me?”
 2: “What? I’m not here to steal… I was just admiring this piece of art”
 3: “I’m just looking around”
@@ -69,7 +69,7 @@ A small and old looking tailor shop catches your eye instantly. In just a short 
 91
 0
 0
-TAILOR: “Y-You! I will call for help! Leave my shop right now!” \n The old man, visibly panicked, ran behind a counter and grabbed a broom. \n No longer being welcome, you turn around and leave the shop - with a smirk on your face.
+a“Y-You! I will call for help! Leave my shop right now!” the old man, visibly panicked, ran behind a counter and grabbed a broom. No longer being welcome, you turn around and leave the shop - with a smirk on your face.
 1: Leave
 0
 0
@@ -79,7 +79,7 @@ TAILOR: “Y-You! I will call for help! Leave my shop right now!” \n The old m
 0
 0
 0
-TAILOR: “...a-art?” \n Owner whispered and turned his face to the side. Was it just your imagination or the old man is blushing?  \n TAILOR: “WELL! As someone who acknowledged my masterpiece, you deserved to be rewarded. Take it and don’t hurt my eyes anymore with those clothes of yours!” \n Looking at an old man’s hand you see a shiny scarf.
+“...a-art?” the owner whispered and turned his face to the side. Was it just your imagination or the old man is blushing? “WELL! As someone who acknowledged my masterpiece, you deserved to be rewarded. Take it and don’t hurt my eyes anymore with those clothes of yours!” said the man, still blushing. Looking at an old man’s hand you see a shiny scarf.
 1: Accept the gift
 2: Don't accept the gift and leave
 0
@@ -89,7 +89,7 @@ TAILOR: “...a-art?” \n Owner whispered and turned his face to the side. Was 
 0
 0
 0
-TAILOR: “Then look faster! Don’t you have a job to do or places to be?! The Younger generation never think about the future!” \n The owner started murmuring under his breath for a while, and - not wanting to face any more of his grumpiness, you left the store.
+“Then look faster! Don’t you have a job to do or places to be?! The Younger generation never think about the future!” the owner started murmuring under his breath for a while, and - not wanting to face any more of his grumpiness, you left the store.
 1: Leave
 0
 0
@@ -99,7 +99,7 @@ TAILOR: “Then look faster! Don’t you have a job to do or places to be?! The 
 0
 0
 0
-Finally decided to head into the castle, you spot two guards in front of the gate. \n HERO: I’m here to see the king” \n GUARD 1: “Castle’s closed today.” \n HERO: “But I’m here to see the king” \n GUARD 2: “Ya deaf, buddy? Ya not going anywhere.”
+Finally decided to head into the castle, you spot two guards in front of the gate. "I’m here to see the king” you stated, proudly. “Castle’s closed today” said one of the guard, not even bothering to look at you.  “But I’m here to see the king” you still tried to convince him, just as another guard butted in “Ya deaf, buddy? Ya not going anywhere.”
 1: Fight the guards
 2: “I have a written permit”
 3: “I need to see the king”
@@ -109,7 +109,7 @@ Finally decided to head into the castle, you spot two guards in front of the gat
 121
 132
 0
-GUARD 1: “ Yeah, you do? You’ve written it yourself?” \n GUARD 2: “Ya don’t look like ya could write”
+“ Yeah, you do? You’ve written it yourself?” two guard started to laugh at you “Ya don’t look like ya could write”
 1: Fight the guards
 2: “Let me pass or I’ll have you punished”
 3: Show the permit anyway
@@ -119,7 +119,7 @@ GUARD 1: “ Yeah, you do? You’ve written it yourself?” \n GUARD 2: “Ya do
 171
 0
 0
-GUARD 1: “Right, everyone needs to. Unfortunately for you I need to do my job, so go away”
+“Right, everyone needs to. Unfortunately for you I need to do my job, so go away” the guard stated, looking completly unbothered. 
 1: Fight the guards
 2: “But I have a written permit”
 3: “Let me pass or I’ll have you punished”
@@ -129,7 +129,7 @@ GUARD 1: “Right, everyone needs to. Unfortunately for you I need to do my job,
 131
 0
 0
-GUARD 2: “And who do ya think ya are, kid?” \n GUARD 1: “I don’t want to deal with you, so leave before I lose my patience” 
+“And who do ya think ya are, kid?” guards were as stubborn as seconds ago “I don’t want to deal with you, so leave before I lose my patience” 
 1: Fight the guards
 2: Insist
 0
@@ -139,7 +139,7 @@ GUARD 2: “And who do ya think ya are, kid?” \n GUARD 1: “I don’t want to
 0
 0
 0
-GUARD 1: “Listen I will beat the–”
+“Listen I will beat the–” one of the guards lost his patience.
 1: Fight the guards
 2: Ask passerby for help
 0
@@ -169,7 +169,7 @@ FAMILIAR VOICE: “You noisy kids, don’t you see this kid is in a rush” \n T
 0
 0
 0
-GUARD 2: “ Ya know what, it looks good enough for me” GUARD 1: “But we will keep that in case you cause any trouble. Now go away before we change our mind”
+“Ya know what, it looks good enough for me” the guard finally slip the premit into his pocket “But we will keep that in case you cause any trouble. Now go away before we change our mind”
 1: Enter the castle
 0
 0
