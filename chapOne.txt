@@ -5,136 +5,186 @@ Go to the tailor
 Don’t go anywhere
 0
 11
-12
-13
-14
+61
+101
+0
 0
 "Encouraged by the sweet smell of baked pies you walk straight to the local bakery. Apple pies, bagels, cakes, tarts, loafs - just everything your heart can desire. \n WOMAN: “See anything you like?”\nA deep female voice asked, just from behind your shoulders.\n WOMAN: “You don’t look like you are from here? Are you travelling, sweetheart?” \n\n"
+“I got summoned by a king.”
+“I have some business around.”
+Say nothing
+0
+21
+41
+51
+0
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
 Accept the gift
-Don't accept the gift
+Don't accept the gift and just leave
+0
+0
+31
+101
+0
+0
+0
+Accepting the gift you continue to chat with a woman, but after a while it is a time to leave the bakery. "May we meet again" woman said while waving you a goodbye. 
+Leave
+0
+0
+0
+101
+0
+0
+0
+0
+WOMAN: “Business? Well it’s a busy world out there, isn’t it?” \n WOMAN: “Here, take this, don’t go around hungry” \n Looking at a small package you 
+Accept the gift
+Don't accept the gift and just leave
+0
+0
+31
+101
+0
+0
+0
+WOMAN: “Not much of a talker, are you? If you see anything you like just tell me” \n The woman stated, pointing to shelves full of pies. As nothing catches your eye, you turn around and leave.
+Leave
+0
+0
+0
+101
+0
+0
+0
+0
+A small and old looking tailor shop catches your eye instantly. In just a short while you found yourself staring at unusual garments. \n TAILOR: “Don’t you dare steal a single thing, tourist!” \n A grumpy voice from behind you warned you. It looks like it belongs to the shop owner - and the only other person in the room right now. 
+“Well, nobody will see a thing, right? Or do you think YOU can stop me?”
+“What? I’m not here to steal… I was just admiring this piece of art”
+“I’m just looking around”
+0
+71
+81
+91
+0
+0
+TAILOR: “Y-You! I will call for help! Leave my shop right now!” \n The old man, visibly panicked, ran behind a counter and grabbed a broom. \n No longer being welcome, you turn around and leave the shop - with a smirk on your face.
+Leave
+0
+0
+0
+101
+0
+0
+0
+0
+TAILOR: “...a-art?” \n Owner whispered and turned his face to the side. Was it just your imagination or the old man is blushing?  \n TAILOR: “WELL! As someone who acknowledged my masterpiece, you deserved to be rewarded. Take it and don’t hurt my eyes anymore with those clothes of yours!” \n Looking at an old man’s hand you see a shiny scarf.
+Accept the gift
+Don't accept the gift and leave
+0
+0
+181
+101
+0
+0
+0
+TAILOR: “Then look faster! Don’t you have a job to do or places to be?! The Younger generation never think about the future!” \n The owner started murmuring under his breath for a while, and - not wanting to face any more of his grumpiness, you left the store.
+Leave
+0
+0
+0
+101
+0
+0
+0
+0
+Finally decided to head into the castle, you spot two guards in front of the gate. \n HERO: I’m here to see the king” \n GUARD 1: “Castle’s closed today.” \n HERO: “But I’m here to see the king” \n GUARD 2: “Ya deaf, buddy? Ya not going anywhere.”
+Fight the guards
+“I have a written permit”
+“I need to see the king”
+“Let me pass or I’ll have you punished”
+//fight
+111
+121
+132
+0
+GUARD 1: “ Yeah, you do? You’ve written it yourself?” \n GUARD 2: “Ya don’t look like ya could write”
+Fight the guards
+“Let me pass or I’ll have you punished”
+Show the permit anyway
+0
+//fight
+132
+171
+0
+0
+GUARD 1: “Right, everyone needs to. Unfortunately for you I need to do my job, so go away”
+Fight the guards
+“But I have a written permit”
+“Let me pass or I’ll have you punished”
+0
+//fight
+111
+131
+0
+0
+GUARD 2: “And who do ya think ya are, kid?” \n GUARD 1: “I don’t want to deal with you, so leave before I lose my patience” 
+Fight the guards
+Insist
+0
+0
+//fight
+141
+0
+0
+0
+GUARD 1: “Listen I will beat the–”
+Fight the guards
+Ask passerby for help
+0
+0
+//fight
+151
+0
+0
+0
+FAMILIAR VOICE: “Aren’t you the one waiting for an audience with the king?” \n The familiar voice that rushed to your aid belongs to none other than a friendly woman from a bakery. \n WOMAN: “You should be ashamed- treating our precious guest like that! What would THE KING do, if he were to find out!” \n Guards started to look a little bit paler. \n GUARD 1: “W-Well, w-we didn’t know you are an important g-guest..Come in-inside!”
+Enter the castle
+0
 0
 0
 21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
+FAMILIAR VOICE: “You noisy kids, don’t you see this kid is in a rush” \n The familiar voice that rushed to your aid belongs to none other than an old tailor from the shop. \n TAILOR: “Is that bribe you are taking not enough to satisfy your greedy mouths?” \n Guards started to look a little bit paler. \n GUARD 1: “W-Well, w-we didn’t know you are an important g-guest..Come in-inside!”
+Enter the castle
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
 21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
-21
-22
-23
-24
+GUARD 2: “ Ya know what, it looks good enough for me” GUARD 1: “But we will keep that in case you cause any trouble. Now go away before we change our mind”
+Enter the castle
 0
-"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
-a
-b
-c
-d
+0
+0
 21
-22
-23
-24
+0
+0
+0
+0
+Accepting the gift you continue to chat with an old tailor, but after a while it is a time to leave the bakery. "Don't go and start any trouble" tailor said and turned around to take care of some expensive looking material. 
+Leave
+0
+0
+0
+101
+0
+0
+0
