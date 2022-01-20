@@ -1,0 +1,140 @@
+0
+"Getting nearer to the palace turned out to be much more stressful than you have previously assumed. Or maybe it wasn’t a journey that was stressful, but rather what awaited you at the end. \n Couple of weeks ago you received a letter. A letter from none other than a king himself!  But what was it about? That’s what you were about to find out, because the letter didn’t explain it - just that it was urgent. \n As you get closer to your destination you decide to look around." << "\n\n" 
+Examine a bakery
+Go to the tailor
+Don’t go anywhere
+0
+11
+12
+13
+14
+0
+"Encouraged by the sweet smell of baked pies you walk straight to the local bakery. Apple pies, bagels, cakes, tarts, loafs - just everything your heart can desire. \n WOMAN: “See anything you like?”\nA deep female voice asked, just from behind your shoulders.\n WOMAN: “You don’t look like you are from here? Are you travelling, sweetheart?” \n\n"
+Accept the gift
+Don't accept the gift
+0
+0
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24
+0
+"WOMAN:“A KING?”\nA woman looked at you, as if she had to find at least a small proof of your words. \nWOMAN:“As they say, you should not judge a book by it’s cover...ANYWAY! You can’t walk around hungry if you are summoned BY A KING HIMSELF!”\n A woman continued her monologue, getting more excited with every passing second. \nWOMAN: “Here, take this! I know, I’m awesome, but no need to thank me, just make sure to enjoy it, sweetie! Come on, don’t let THE KING wait”" << "\n\n"
+a
+b
+c
+d
+21
+22
+23
+24

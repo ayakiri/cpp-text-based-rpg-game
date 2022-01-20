@@ -2,12 +2,6 @@
 #include <vector>
 #include <algorithm>
 
-//strony
-class pageClass {
-    public:
-        int currentPage; 
-        
-};
 
 class answersPageClass{
     public:
@@ -32,8 +26,8 @@ class playerClass {
     public: 
         std::string name; 
         int health; 
+        int currentChapter;
         std::vector <std::string> currentItems; 
-        int currentPage; 
         
         // stworz bohatera
         void createHero(){
@@ -45,7 +39,7 @@ class playerClass {
             }
             
             health = 100;
-            currentPage = 1001;
+            currentChapter = 1;
     
             system("clear");
         }
@@ -53,6 +47,7 @@ class playerClass {
         // dodaj przedmiot do eq
             void addItem(std::string obtainedItem){
                 currentItems.push_back(obtainedItem);
+                std::cout << name << ", " << obtainedItem << " was added to your inventory! \n";
             }
             
         // czy w eq jest dany przedmiot 

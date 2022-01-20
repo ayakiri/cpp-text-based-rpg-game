@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include <curses.h>
 #include "chaptersMechanics.cpp"
 #include "chapterOne.cpp"
@@ -15,10 +14,9 @@ int main(void){
 
     // chapter 1
     
-    beginChapter(1);
+    beginChapter(newHero.currentChapter);
     
     std::cout << "koniec \n";
-
     
     return 0;
 }
