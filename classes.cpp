@@ -33,7 +33,7 @@ class currentPageClass{
             return fileName; 
         }
         
-        //wyznacz sciezki odpowiedzi //brzydki kawalek kodu i know, poprawie jak nie zapomne
+        //wyznacz sciezki odpowiedzi //brzydki kawalek kodu, i know, poprawie jak nie zapomne
         void assignAnswersRoute(int lineId, std::string line){
             if(lineId % 10 == 0){
                 currentAnswers[3] = stoi(line);
@@ -41,18 +41,6 @@ class currentPageClass{
                 currentAnswers[(lineId % 10) - 7] = stoi(line);
             }
         }
-        
-        // sprawdz dodatkowa akcje
-                
-        // strona game over - id : 999
-        
-        // strona przedmiotu - id : 888
-        
-        // strona szpitala - id : 777
-        
-        // strona przeciwnika - id : 666
-        
-        // strona wygranej - id : 555
 };
 
 // Gracz
@@ -60,6 +48,7 @@ class playerClass {
     public: 
         std::string name; 
         int health; 
+        bool isDead;
         std::vector <std::string> currentItems; 
         
         // stworz bohatera
@@ -71,28 +60,23 @@ class playerClass {
                 name = "Hero";
             }
             
+            isDead = false;
             health = 100;
                 
             system("clear");
         }
-        
-        // dodaj przedmiot do eq
-            void addItem(std::string obtainedItem){
-                currentItems.push_back(obtainedItem);
-                std::cout << name << ", " << obtainedItem << " was added to your inventory! \n";
-            }
-            
+                    
         // czy w eq jest dany przedmiot 
             int checkItems(std::string necesseryItem){
                 bool isObtained = std::find(currentItems.begin(), currentItems.end(), necesseryItem) != currentItems.end();
                 return isObtained;
             }
-};
-
-// Przeciwnicy
-class enemyClass {
-    public:
-        std::string name;
-        int damage; 
-        std::string weapon;
+            
+        // czy bohater jeszcze zyje
+            int checkHealth(){
+                if(health < 1){
+                    isDead = true;
+                }
+                return isDead;
+            }
 };

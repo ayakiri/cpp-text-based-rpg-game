@@ -1,7 +1,5 @@
 #include <iostream>
-#include <curses.h>
 #include "chaptersMechanics.cpp"
-#include "chapterOne.cpp"
 
 int main(void){
     system("clear");
