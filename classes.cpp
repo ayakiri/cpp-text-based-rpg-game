@@ -3,10 +3,44 @@
 #include <algorithm>
 
 
-class answersPageClass{
+class currentPageClass{
     public:
-        int nextPage;
-        int additionalAction;
+        int currentChapter = 1;
+        int currentPage = 1;
+        int currentAnswers[4] = {1, 1, 1, 1};
+        std::string fileName;
+        
+                
+        // wybierz ktory chapter ma byc pobrany
+        std::string returnChapterFileName(int chapter){
+            switch(chapter){
+                case 1:
+                    fileName = "chapOne.txt";
+                    break;
+                case 2:
+                    fileName = "chapOne.txt";
+                    break;
+                case 3:
+                    fileName = "chapOne.txt";
+                    break;
+                case 4:
+                    fileName = "chapOne.txt";
+                    break;
+                case 5:
+                    fileName = "chapOne.txt";
+                    break;
+            }
+            return fileName; 
+        }
+        
+        //wyznacz sciezki odpowiedzi //brzydki kawalek kodu i know, poprawie jak nie zapomne
+        void assignAnswersRoute(int lineId, std::string line){
+            if(lineId % 10 == 0){
+                currentAnswers[3] = stoi(line);
+            } else {
+                currentAnswers[(lineId % 10) - 7] = stoi(line);
+            }
+        }
         
         // sprawdz dodatkowa akcje
                 
@@ -26,7 +60,6 @@ class playerClass {
     public: 
         std::string name; 
         int health; 
-        int currentChapter;
         std::vector <std::string> currentItems; 
         
         // stworz bohatera
@@ -39,8 +72,7 @@ class playerClass {
             }
             
             health = 100;
-            currentChapter = 1;
-    
+                
             system("clear");
         }
         

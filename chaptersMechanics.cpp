@@ -7,6 +7,8 @@
 #include "classes.cpp"
 
 playerClass newHero;
+currentPageClass newStory;
+void pageContent(std::string fileName, int pageId);
 
 // do wybierania odpowiedzi
 int pickAnswer(int numberOfOptions){
@@ -31,52 +33,45 @@ void displayGameIntro(){
     system("clear");
 }
 
+//przejscie na nowa strone
+void nextPage(int answer){
+    newStory.currentPage = newStory.currentAnswers[(answer - 1)];
+    pageContent({ newStory.returnChapterFileName(newStory.currentChapter) }, newStory.currentPage);
+}
+
 //pobierz i wyswietl strone
-void pageContent(std::string fileName){
-    int pageId = 11;
+void pageContent(std::string fileName, int pageId){
+    int numberOfOptions = -1; 
     std::string line; 
     std::ifstream file(fileName);
     if(file.is_open()){
         while(!file.eof()){
             for(int lineId = 1; getline(file, line) || lineId <= (pageId+9); lineId++){
+                //wydrukuj te linie ktore maja byc widoczne
                 if(lineId >= pageId && lineId <= (pageId + 5) && line != "0"){
                     std::cout << line << "\n";
+                    numberOfOptions++; 
+                }
+                //przypisz ktore strony sa po wybraniu odpowiedzi
+                if(lineId >= (pageId + 6) && lineId <= (pageId + 9)){
+                    newStory.assignAnswersRoute(lineId, line);
                 }
             }
         }
     } else {
         std::cout << "Something went wrong\n\n";
     }
+    
+    nextPage({pickAnswer(numberOfOptions)});
 }
 
 // wstep do chapteru 
 void beginChapter(int chapterNumber){
     std::cout << "=====================================\n";
-    std::cout << "==            Chapter "<< newHero.currentChapter << "            ==\n";
+    std::cout << "==            Chapter "<< newStory.currentChapter << "            ==\n";
     std::cout << "=====================================\n\n";    
-    
-    // wybierz ktory chapter ma byc pobrany
-    std::string fileName;
-    
-    switch(newHero.currentChapter){
-        case 1:
-            fileName = "chapOne.txt";
-            break;
-        case 2:
-            fileName = "chapOne.txt";
-            break;
-        case 3:
-            fileName = "chapOne.txt";
-            break;
-        case 4:
-            fileName = "chapOne.txt";
-            break;
-        case 5:
-            fileName = "chapOne.txt";
-            break;
-    }
-    
-    pageContent(fileName);
+        
+    pageContent({ newStory.returnChapterFileName(newStory.currentChapter) }, newStory.currentPage);
 }
 
 // walka 
@@ -87,7 +82,7 @@ void fightEnemy(std::string necessaryItem){
     
     if(newHero.checkItems(necessaryItem)){
         std::cout << "The enemy was struck with " << necessaryItem << "\n You take no damage and win this fight! \n";
-    }else {
+    } else {
         std::cout << "nie zyjesz\n";
     }
 }

@@ -12,9 +12,8 @@ int main(void){
     
     displayGameIntro();
 
-    // chapter 1
-    
-    beginChapter(newHero.currentChapter);
+    // zacznij gre    
+    beginChapter(newStory.currentChapter);
     
     std::cout << "koniec \n";
     
