@@ -8,7 +8,7 @@ int main(void){
     
     newHero.createHero();
     
-    displayGameIntro();
+    //displayGameIntro();
 
     // zacznij gre    
     beginChapter(newStory.currentChapter);

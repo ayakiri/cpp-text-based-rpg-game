@@ -141,11 +141,11 @@ Finally decided to head into the castle, you spot two guards in front of the gat
 0
 “Listen I will beat the–” one of the guards lost his patience.
 1: Fight the guards
-2: Ask passerby for help
+0
 0
 0
 191
-151
+0
 0
 0
 0
@@ -154,7 +154,7 @@ FAMILIAR VOICE: “Aren’t you the one waiting for an audience with the king?�
 0
 0
 0
-21
+201
 0
 0
 0
@@ -164,7 +164,7 @@ FAMILIAR VOICE: “You noisy kids, don’t you see this kid is in a rush” \n T
 0
 0
 0
-21
+201
 0
 0
 0
@@ -174,7 +174,7 @@ FAMILIAR VOICE: “You noisy kids, don’t you see this kid is in a rush” \n T
 0
 0
 0
-21
+201
 0
 0
 0
@@ -198,3 +198,5 @@ You decide to fight the guards.
 0
 0
 0
+666
+Next chapter

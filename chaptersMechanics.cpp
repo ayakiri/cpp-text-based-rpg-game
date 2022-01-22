@@ -9,7 +9,9 @@
 
 playerClass newHero;
 currentPageClass newStory;
+
 void pageContent(std::string fileName, int pageId);
+void nextChapter();
 
 // do wybierania odpowiedzi
 int pickAnswer(int numberOfOptions){
@@ -34,8 +36,8 @@ void displayGameIntro(){
     system("clear");
 }
 
-// smierc w walce rip
-void deathInBattle(int death){
+// smierc
+void death(int death){
     if(death){
         std::cout << "You lost all your health points!\n";
         std::cout << "Unfortunatly it is the end of your journey\n\n";
@@ -51,12 +53,12 @@ void enemyEncounter(std::string damage, std::string necessaryItem){
     std::cout << "======================\n\n";
     
     if(newHero.checkItems(necessaryItem)){
-        std::cout << "The enemy was distracted with " << necessaryItem << "\n You take no damage and win this fight! \n";
+        std::cout << "The enemy was distracted with " << necessaryItem << "\n You take no damage and win this fight! \n\n";
     } else {
         std::cout << "The enemy is too powerfull!\n";
-        std::cout << "You lose " << damage << " health points!\n\n";
+        std::cout << "You lose " << stoi(damage) << " health points!\n\n";
         newHero.health = newHero.health - stoi(damage);
-        deathInBattle({ newHero.checkHealth() });
+        death({ newHero.checkHealth() });
         std::cout << "You currently have " << newHero.health << " health points!\n\n";
     }
 }
@@ -90,7 +92,7 @@ void visitHospital(std::string restoredHP){
 // dodaj przedmiot
 void addItem(std::string obtainedItem){
     newHero.currentItems.push_back(obtainedItem);
-    std::cout << newHero.name << ", " << obtainedItem << " was added to your inventory! \n\n";
+    std::cout << obtainedItem << " was added to your inventory! \n\n";
 }
 
 // sprawdz dodatkowa akcje
@@ -111,6 +113,9 @@ void checkAction(std::string action){
         case 555:
             
             break;
+        case 666:
+            nextChapter();
+            break;
     }
 }
 
@@ -122,44 +127,70 @@ void nextPage(int answer){
     pageContent({ newStory.returnChapterFileName(newStory.currentChapter) }, newStory.currentPage);
 }
 
-//pobierz i wyswietl strone
-void pageContent(std::string fileName, int pageId){
-    int numberOfOptions = -1; 
+// wyswietl strone 
+void displayPage(){
+    newStory.numberOfOptions = 0;
+    
+    std::cout << newStory.pageDescription << "\n\n";
+    std::cout << "\n" << "What would you like to do?" << "\n";
+    for(int i = 0; i < 4; i++){
+        if(newStory.answersToPrint[i] != "0"){
+            std::cout << newStory.answersToPrint[i] << "\n";
+            newStory.increaseNoO();
+        }
+    }
+    newStory.clearAnswersText();
+    std::cout << "\n\n";
+    
+    nextPage({pickAnswer(newStory.numberOfOptions)});
+}
+
+//pobierz strone
+void pageContent(std::string fileName, int currentPage){
     std::string line; 
     std::ifstream file(fileName);
-    if(file.is_open()){
-        while(!file.eof()){
-            for(int lineId = 1; getline(file, line) || lineId <= (pageId+9); lineId++){
-                //zobacz akcje dodatkowe
-                if(lineId == pageId && line != "0"){
-                    checkAction(line);
-                }
-                //wydrukuj te linie ktore maja byc widoczne
-                if(lineId > pageId && lineId <= (pageId + 5) && line != "0"){
-                    if(lineId % 10 == 3){
-                        std::cout << "\n" << "What would you like to do?" << "\n";
-                    }
-                    std::cout << line << "\n";
-                    numberOfOptions++; 
-                }
-                //przypisz ktore strony sa po wybraniu odpowiedzi
-                if(lineId >= (pageId + 6) && lineId <= (pageId + 9)){
-                    newStory.assignAnswersRoute(lineId, line);
-                }
+    if(file.is_open()){        
+        for(int lineId = 1; getline(file, line); lineId++){
+            //zobacz akcje dodatkowe
+            if(lineId == currentPage && line !="0"){
+                checkAction(line);
+            }
+            // przypisz opis
+            if(lineId == (currentPage + 1)){
+                newStory.assignPageDescription(line);
+            }
+            //przypisz tekst odpowiedzi
+            if(lineId >= (currentPage + 2) && lineId <= (currentPage + 5)){
+                newStory.assignAnswersText(lineId, line);
+            }
+            //przypisz ktore strony sa po wybraniu odpowiedzi
+            if(lineId >= (currentPage + 6) && lineId <= (currentPage + 9)){
+                newStory.assignAnswersRoute(lineId, line);
             }
         }
+        
+        file.close();
     } else {
         std::cout << "Something went wrong\n\n";
     }
     
-    nextPage({pickAnswer(numberOfOptions)});
+    displayPage();
 }
 
 // wstep do chapteru 
 void beginChapter(int chapterNumber){
+    system("clear");
     std::cout << "=====================================\n";
     std::cout << "==            Chapter "<< newStory.currentChapter << "            ==\n";
     std::cout << "=====================================\n\n";    
         
     pageContent({ newStory.returnChapterFileName(newStory.currentChapter) }, newStory.currentPage);
+}
+
+// nastepny rozdzial
+void nextChapter(){
+    newStory.currentChapter++;
+    newStory.currentPage = 1;
+    
+    beginChapter(newStory.currentChapter);
 }

@@ -1,0 +1,451 @@
+0
+Entering a main hall in palace you find yourself in a corridor with three doors. Left doors looking pretty casual, with no special decors, while right ones seemed to be in a worse state, with possibly a claw marks all over them? Only front doors look like thay actually belongs to a castle - with plenty gold ornaments and beautiful cravings. 
+1: Go straight
+2: Go left
+3: Go right
+0
+101
+11
+61
+0
+0
+You walk through left side doors. Looking inside you find some kind of storeroom. Most of the items there were of no special use, but three of them looks kinda useful. What catches your eye is a small jar of leeches, candles and kitchen knife.  
+1: Take the jar of leeches
+2: Take candles
+3: Take kitchen knife
+4: Take all 3 items
+21
+31
+41
+51
+222 Jar of leeches
+You think that a jar of leeches looks the most promising out of 3, so you grab that and put it in your bag. 
+1: Leave
+2: Take rest of the items
+0
+0
+1
+51
+0
+0
+222 Candles
+Fearing darkness as a small child you doesn't need to think twice before grabing some candles and puting them into your bag.
+1: Leave
+2: Take the rest of the items
+0
+0
+1
+51
+0
+0
+222 Kitchen knife
+Every adventurer needs some a knife...or maybe couple of knives would be better? Still it is nice to have at least that so you quickly put it into your bag
+1: Leave
+2: Take the rest of the items
+0
+0
+1
+51
+0
+0
+0
+"What are you doing here!" you hear some high-pitched voice behind you, just as you are putting some items into your bag. "Leave those things, righ now! And leave the room! Or this castle! Or this city! Or this--" seeing no end to woman's screams you leave the room. 
+1: Leave
+0
+0
+0
+1
+0
+0
+0
+0
+You turn right and open the doors with a creaking sound. The room looks pretty abandoned, which looks weird, given the fact that it was a room in a king's palace.  You are going further and further as you realise that there is no intresting thing here. You turn around and try to leave the room, when you realise the doors are not here. Instead there is a pale looking woman crying on the floor. 
+1: Look for the exit
+2: Confront the woman
+0
+0
+71
+81
+0
+0
+0
+Not wanting to disturb castle residents you turn around to look for the exit. It has to be somewhere, doesn't it? But just as you are trying to walk away you feel a cold arm on your shoulder. "C-can you help m-me?" the voice started to sound more and more devilish. "I don't think I can--" your explantion is being interupted as the creature jumped high into air and bite into your neck.  
+1: Fight creature
+0
+0
+0
+91
+0
+0
+0
+0
+"Hello?" you ask with not an inch of confidence "may I help you?". Woman looks at you for a short while before turning away. "Yes, yes you can" you hear her saying. "Nice, what can I--" you try to gather more information as the starts to transform into some devilish creature. "You can help me by giving my your blood!"
+1: Fight creature
+0
+0
+0
+91
+0
+0
+0
+444 005 Jar of leeches
+As the fight ends, you breathe a sigh of relieve. What was it? A vampire? A ghoul? Whatever it was it is gone now. The moment strange creature disappeared, you find out that the doors you were looking for, were in the same spot as when you entered the room. 
+1: Leave
+0
+0
+0
+1
+0
+0
+0
+0
+Walking proudly through the front doors you enter the lavish looking hall - and at the center of it was standing no other than a king himself. "Ah, there you are!" king's face visibly brightened with relieve. "You must be this famous ghost catcher. You have to help me. Me and my people" king is visibly overwhelmed with emotions "this ghost is haunting kingdom and we can't take this anymore. You have to get rid of it right now!"
+1: "Where did the ghost came from?"
+2: "Who is this ghost?"
+3: "Where can I find it?"
+4: "That is all I need to know"
+111
+121
+131
+141
+0
+"I-I don't know. One day everything was fine and the next one my people were saying that they are being haunted" king's face is becoming more and more red with every word. "Corps damaged, animals terrified, we can't live like that anymore" 
+1: "Who is this ghost?"
+2: "Where can I find it?"
+3: "That is all I need to know"
+0
+121
+131
+141
+0
+0
+"Who? How would I know?!" the king got really mad after hearing this question. But why?
+1: "Where did the ghost came from?"
+2: "Where can I find it?"
+3: "That is all I need to know"
+0
+111
+131
+141
+0
+0
+"It appears in different villages from time to time, but I heard that most of the time it is residing in an old abandoned residence, high in the mountains" king explained. "But it is really cold out there, so not many people go there"
+1: "Where did the ghost came from?"
+2: "Who is this ghost?"
+3: "That is all I need to know"
+0
+111
+121
+141
+0
+0
+"Then what are you still doing here?! You need to get rid of it right now" king's patience was clearly running thin. "Go to the armory, it's located in the lower city, turn right when you leave the castle. People there will give you some things that might be useful to you. And stop standing there! Go!"
+1: Leave castle
+0
+0
+0
+151
+0
+0
+0
+222 Golden Key
+"Oh I almost forgot" this time it was a young page that walked to you just as you were leaving. "The residence used by a ghost used to belong to king's family, so take this key. It will probably make entering it easier" 
+1: Leave castle
+0
+0
+0
+161
+0
+0
+0
+0
+Armory, armory...it should be around the corner. But which one? 
+1: Turn left
+2: Turn right
+0
+0
+171
+261
+0
+0
+0
+Aaaand a deadend. You find nothing here. Nothing except for a big guy with an even bigger sword. You could have sworn he wasn't there the second ago! The guy got pretty huge muscles, an eyepatch on the left eye and really, really mean look on his face.
+1: Fight the guy
+2: Talk with him
+3: Sneak from the right side
+4: Sneak from the left side
+181
+191
+211
+241
+444 010 Kitchen knife
+The tough guy, was in fact tough. Still it won't stop you from continuing your adventure. 
+1: Head to the armory
+0
+0
+0
+261
+0
+0
+0
+0
+"So hello?" maybe not the best choice but it was the first thing that you came up with. "Mogak want drink. Mogak want beer. Mogak want money" the guy finally speaks. To your bad luck and empty pockets that request was clearly out of limits. But maybe attacking him now won't be the worst idea as he seems kinda lost in thoughts?
+1: Fight the guy
+2: Distract him and attack
+0
+0
+181
+201
+0
+0
+444 005 Kitchen knife
+The tough guy, was in fact tough. But the distraction worked well. Who new that a small rock thrown in the right direction could do miracles? Some tough guy won't stop you from continuing your adventure. 
+1: Head to the armory
+0
+0
+0
+261
+0
+0
+0
+0
+Hoping he didn't noticed you there, you try to sneak past him. It almost looks like you will make it! 
+1: Continue sneaking
+2: Fight the guy
+0
+0
+221
+181
+0
+0
+0
+You are doing pretty well until you look past the corner - "Hey, are you trying to run away?" - some other man showed up, "are you trying to run away from our dear Mogak?" You glance at the first guy and he looks pretty pissed right now. "Mogak mad. Mogak want FIGHT!"
+1: Fight creepy guys
+0
+0
+0
+231
+0
+0
+0
+444 015 NA
+That wasn't the nicest encounter. Still it won't stop you from continuing your adventure. 
+1: Head to the armory
+0
+0
+0
+261
+0
+0
+0
+0
+Sneaking over there wasn't that hard. Looks like an eyepatch is doing a great job keeping you from his sight. Just a little bit more and you will reach main road. 
+1: Continue sneaking
+2: Fight the guy
+0
+0
+251
+181
+0
+0
+0
+You made it! That was a though one, but fortunately you mede it out without a single scratch.
+1: Head to the armory
+0
+0
+0
+261
+0
+0
+0
+0
+Armory looked like... an armory. Big, spacious and full of weapons and sweaty soldiers. "Are you this ghost hunter send by the king?" tall guy asked, he looks like one of the generals. "Yes, I am" you answer proudly.
+1: "Do you have any items for me?"
+0
+0
+0
+271
+0
+0
+0
+0
+"We have, but I hate to tell you we are currently tight on budget..." the man started awkwardly scratching his head. "I will show you a 3 sets of things, but from every one you can only take one item. I am not sure what you will need as every item may be usefull in different situation" I should probably think careful about this one. 
+1: "I want to choose my equipment"
+2: "Can you answer my questions first?"
+0
+0
+321
+281
+0
+0
+0
+"What do you want to know?"
+1: "Where can I find the ghost?"
+2: "What route should I take to get to the ghost?"
+3: "How can I get rid of the ghost?"
+4:"I want to choose my equipment"
+291
+301
+311
+321
+0
+"Just as king probably already told you, he usually can be found in an old residence, that used to belong to king" the man thought for a second before adding "It is a mansion build on a really high mountain, that is known for it's extremely cold weather"
+1: "I still have some questions"
+2: "I want to choose my equipment"
+0
+0
+281
+321
+0
+0
+0
+"I am not sure about this one. I have never been in that territory" the general showed you a basic map "But to get there you will have to go through the forest, it's just outside the city walls"
+1: "I still have some questions"
+2: "I want to choose my equipment"
+0
+0
+281
+321
+0
+0
+0
+"You asking me that? I thought you are the ghost hunter" the man looked a little uncomfortable with your question.
+1: "I still have some questions"
+2: "I want to choose my equipment"
+0
+0
+281
+321
+0
+0
+0
+"Okay, here goes the first pack" the man showed you a couple of things, but only three of them caught your attention. "Excelent choice. Grappling hook, perfect for climbing up the walls. Pirate sword, curvy sword with a thick blade, might be usefull for a couple things, like slashing plants or slashing enemies or slashing in general. And the last one - torch, irreplaceable when exploring mines or other caves"
+1: Take Grappling hook
+2: Take Pirate sword
+3: Take Torch
+0
+331
+341
+351
+0
+222 Grappling hook
+What could be a better choice other than grappling hook when climbing a mountain?
+1: Pick next item
+0
+0
+0
+361
+0
+0
+0
+222 Pirate Sword
+Sword is always a good choice when going on a adventure.
+1: Pick next item
+0
+0
+0
+361
+0
+0
+0
+222 Torch
+Pretty lit torch. Who knows when it might come in handy?
+1: Pick next item
+0
+0
+0
+361
+0
+0
+0
+0
+"And now we have a couple of potions" the man pointed to an alchemist stand "I selected these three as the most usefull ones. Potion of luck, pretty much self explanatory, but remember it is illegal to drink it when you gamble! Potion of sun, though you might think otherwise, it is actually useful when traveling in a hot enviroment, like a desert. Potion of darkness, pour it on someone and you will be sure that they won't see a single thing in a long time, but for the love of a king, don't drink it yourself!"
+1: Take the Potion of luck
+2: Take the Potion of sun
+3: Take the Potion of darkness
+0
+371
+381
+391
+0
+222 Potion of luck
+When you possess no skill all you can count on is luck. Not that it refers to you! 
+1: Pick next item
+0
+0
+0
+401
+0
+0
+0
+222 Potion of sun
+Oh who would have wanted to get a sun burn while being on a adventure?
+1: Pick next item
+0
+0
+0
+401
+0
+0
+0
+222 Potion of darkness
+If you can win the fight, get away from the fight. That would probably be much easier when the enemy can't see you (or can't see at all)
+1: Pick next item
+0
+0
+0
+401
+0
+0
+0
+0
+"This is the last set" the man opened a small bag and immediately three things caught your eye. "You are a true adventurer! Though I am slightly concerned about your choices. Loskpicks might come in handy, but remember I will personaly beat you up, if you break into any of our people's houses! Lucky coin, always shows the side you want it to show, again, not fully legal in our city. And the last one is a cross, might come in handy if you encounter some vampires or... vampires"
+1: Take the lockpicks
+2: Take the Lucky coin
+3: Take the Cross
+0
+411
+421
+431
+0
+222 Lockpicks
+How to enter places nobody wants you to enter? Lockpicks!
+1: Continue
+0
+0
+0
+441
+0
+0
+0
+222 Lucky coin
+Imagine all this money you can gain just by betting with some people in a tavern. Of course if the general over there doesn't find out
+1: Continue
+0
+0
+0
+441
+0
+0
+0
+222 Cross
+Aren't vampires scary? It is definetly safer to have some kind of protection.
+1: Continue
+0
+0
+0
+441
+0
+0
+0
+0
+"I also prepared a backpack with water supply and some rations" the soldier handed you a bag "Good luck on your journey, Hero!" 
+1: Leave the city
+0
+0
+0
+1
+0
+0
+0
+

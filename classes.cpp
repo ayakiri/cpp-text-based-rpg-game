@@ -7,6 +7,9 @@ class currentPageClass{
     public:
         int currentChapter = 1;
         int currentPage = 1;
+        std::string pageDescription; 
+        std::string answersToPrint[4] = {"0", "0", "0", "0"};
+        int numberOfOptions;
         int currentAnswers[4] = {1, 1, 1, 1};
         std::string fileName;
         
@@ -18,7 +21,7 @@ class currentPageClass{
                     fileName = "chapOne.txt";
                     break;
                 case 2:
-                    fileName = "chapOne.txt";
+                    fileName = "chapTwo.txt";
                     break;
                 case 3:
                     fileName = "chapOne.txt";
@@ -41,6 +44,29 @@ class currentPageClass{
                 currentAnswers[(lineId % 10) - 7] = stoi(line);
             }
         }
+        
+        // zapisz text odpowiedzi
+        void assignAnswersText(int lineId, std::string line){
+            answersToPrint[(lineId % 10) - 3] = line;
+        }
+        
+        // zapisz text odpowiedzi
+        void clearAnswersText(){
+            answersToPrint[0] = "0";
+            answersToPrint[1] = "0";
+            answersToPrint[2] = "0";
+            answersToPrint[3] = "0";
+        }
+        
+        // zapisz text strony
+        void assignPageDescription(std::string line){
+            pageDescription = line;
+        }
+        
+        // zwieksz ilosc odpowiedzi
+        void increaseNoO(){
+            numberOfOptions++;
+        }
 };
 
 // Gracz
@@ -61,7 +87,7 @@ class playerClass {
             }
             
             isDead = false;
-            health = 60;
+            health = 100;
                 
             system("clear");
         }
