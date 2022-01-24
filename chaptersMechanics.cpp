@@ -65,8 +65,8 @@ void enemyEncounter(std::string damage, std::string necessaryItem){
 
 // odwiedz szpital
 void visitHospital(std::string restoredHP){
-    std::cout << "You entered the hospital. Here you can restore your health points. \n";
-    std::cout << "This hospital can heal up to " << restoredHP << " health points. \n\n";
+    std::cout << "You met a friendly creature. Thanks to it, you can restore your health points. \n";
+    std::cout << "This creature can heal up to " << restoredHP << " health points. \n\n";
     std::cout << "You currently have " << newHero.health << " health points!\n\n";
     
     int maxHealthToRestore;
@@ -78,8 +78,8 @@ void visitHospital(std::string restoredHP){
     }
     
     std::cout << "Would you like to heal " << maxHealthToRestore << " health points?\n";
-    std::cout << "1: Use hospital\n";
-    std::cout << "2: Don't use hospital\n";
+    std::cout << "1: Heal\n";
+    std::cout << "2: Don't heal\n";
     
     int answer = { pickAnswer(2) };
     
@@ -95,11 +95,19 @@ void addItem(std::string obtainedItem){
     std::cout << obtainedItem << " was added to your inventory! \n\n";
 }
 
+// koniec gry
+void gameOver(std::string deathReason){
+    std::cout << deathReason << "\n";
+    std::cout << "You can't continue your adventure \n";
+    
+    exit(0);
+}
+
 // sprawdz dodatkowa akcje
 void checkAction(std::string action){
     switch(stoi(action.substr(0, 3))){
         case 111:
-            
+            gameOver(action.substr(4, action.size()));
             break;
         case 222:
             addItem(action.substr(4, action.size()));

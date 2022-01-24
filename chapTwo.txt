@@ -399,8 +399,8 @@ If you can win the fight, get away from the fight. That would probably be much e
 0
 0
 0
-"This is the last set" the man opened a small bag and immediately three things caught your eye. "You are a true adventurer! Though I am slightly concerned about your choices. Loskpicks might come in handy, but remember I will personaly beat you up, if you break into any of our people's houses! Lucky coin, always shows the side you want it to show, again, not fully legal in our city. And the last one is a cross, might come in handy if you encounter some vampires or... vampires"
-1: Take the lockpicks
+"This is the last set" the man opened a small bag and immediately three things caught your eye. "You are a true adventurer! Though I am slightly concerned about your choices. This strange sugar... we confiscated it from some foreigners, it's an illegal substance, but if you REALLY need it you can take it. Lucky coin, always shows the side you want it to show, again, not fully legal in our city. And the last one is a cross, might come in handy if you encounter some vampires or... vampires"
+1: Take the Strange sugar
 2: Take the Lucky coin
 3: Take the Cross
 0
@@ -408,8 +408,8 @@ If you can win the fight, get away from the fight. That would probably be much e
 421
 431
 0
-222 Lockpicks
-How to enter places nobody wants you to enter? Lockpicks!
+222 Strange sugar
+It does not look like a sugar. 
 1: Continue
 0
 0
@@ -444,8 +444,9 @@ Aren't vampires scary? It is definetly safer to have some kind of protection.
 0
 0
 0
-1
+451
 0
 0
 0
-
+666 3
+Next chapter

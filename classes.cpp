@@ -24,7 +24,7 @@ class currentPageClass{
                     fileName = "chapTwo.txt";
                     break;
                 case 3:
-                    fileName = "chapOne.txt";
+                    fileName = "chapThree.txt";
                     break;
                 case 4:
                     fileName = "chapOne.txt";

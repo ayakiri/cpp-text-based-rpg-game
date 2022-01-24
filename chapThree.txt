@@ -1,0 +1,332 @@
+0
+You are standing at the entrance to the forest, right now you see only one path - leading right into the heart of the forest. 
+1: Enter the woods
+0
+0
+0
+11
+0
+0
+0
+0
+You find yourself standing at the crossroads with a huge tree in the centre. You have 4 paths.
+1: Go to the forest entrence
+2: Follow blue mushrooms path
+3: Cross the river
+4: Visit a cottage in the woods
+1
+21
+51
+41
+0
+A huge amount of suspicious blue mushrooms is creating a path of their own, so you decide to follow it. 
+1: Go to the crossroads
+2: Enter a cave
+0
+0
+11
+31
+0
+0
+222 Glowing blue mushroom
+Inside a cave you find a enormous mooshroom that stood out among other ones as it was glowing so much that it lighted up whole cave. There is no other passager other than going back. 
+1: Follow blue mushrooms path
+0
+0
+0
+21
+0
+0
+0
+0
+You enter a small cottage in the woods hoping to find anything useful. Unfortunately nothing of a great value was in the sight nor any other path you could follow. The only thing left to do is to go back. 
+1: Go to the crossroads
+0
+0
+0
+11
+0
+0
+0
+0
+From afar you can see a group of gnomes hiding in the bushes. You lock your eyes with one of them. There is no other way - you have to fight!
+1: Fight gnomes
+0
+0
+0
+61
+0
+0
+0
+444 008 NA
+Defeated goblins are running away, leaving you alone on a meadow. Who knows, maybe they will come back?
+1: Cross river
+2: Go up the hill
+3: Follow the road
+0
+11
+71
+131
+0
+0
+You find yourself on a hill. 
+1: Go down to the meadow
+2: Climb higher
+0
+0
+51
+81
+0
+0
+0
+You are standing on top of a hill. A little further you can see a goblin. Those creatures are well known for their love to gamble, but it would be better for your health if you didn't lose any bet with him. 
+1: Approach goblin
+2: Climb down the hill
+0
+0
+91
+71
+0
+0
+0
+Approching a gobling you ready yourself to battle. It would be convinient if you had something that will boost your luck during gambling session with goblin.
+1: Fight goblin
+0
+0
+0
+101
+0
+0
+0
+444 014 Potion of luck
+You manged to ret rid of the goblin, but something was telling you he might come back here. In front of you is only sharp cliff that seems rather unstable. 
+1: Go back
+2: Check out the cliff
+0
+0
+81
+111
+0
+0
+0
+You walk closer to the edge. There is nothing here. As you turned around to go back, suddenly you felt as if there is nothing under your feet and the rocks started falling down into the see - bringing you with them.
+1:  Continue
+0
+0
+0
+121
+0
+0
+0
+111 The fall from height has been fatal. 
+End of your journey.
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Gravel path lead straight to a crossroad with a signpost. One sign, labeld "To the mountain", points to a bridge. Second one, with just a word "Pond", points to a little pond in the distance.  Third one, with "To the castle" label, points to the huge meadow. The last sign is completely illegible due to it being destroyed, however it pointed to an ever thicker part of the forest. 
+1: Head to the bridge
+2: Visit the pond
+3: Head to the meadow
+4: Go to the thicker forest
+191
+171
+51
+141
+0
+You are in a thick part of the forest and hear no sounds. No birds, no animals, no insects. It is really quiet. 
+1: Follow gravel path to the crossroads
+2: Go even deeper
+0
+0
+131
+151
+0
+0
+0
+You walk through the thick bushes and when you finally managed to get through them a small tree flew right past you. As it turns out the one that threw this undoubtedly heavy object was a giant cyclop, that was looking straight at you with another tree in hand. If only you had something to blind him for a second or two!
+1: Fight cyclop
+0
+0
+0
+161
+0
+0
+0
+444 020 Potion of darkness
+You weren't really capable of killing this monster, but you managed to lost him for a while. It's high time to go back on a main road, before he comes back!
+1: Leave thicker part of the woods
+0
+0
+0
+141
+0
+0
+0
+0
+You sat at the bank of the pond. It is really nice to take a short breath for a second. The birds are singing, the sun is so warm. When you turn around you see a beautiful woman behind you. "Hello wanderer, aren't you tired from your journey?" the woman spoke to you with a heavenly voice "I like people who knows how to enjoy nature, I can help you if you want". "Who are you?" you ask, but somehow you aren't nervous around her, even though she is a complete stranger. "I am the Lady of this Forest. I take care of it, of every being that visits my home, no matter how small or how big" the Lady explained "would you like to heal your wounds? I can help with those"
+1: Accept the offer
+2: Go back to the crossroad
+0
+0
+181
+131
+0
+0
+333 35
+"Thank you" you thank the Lady after feeling much better. But there no sight of her is left. "You can always come back to me, if you need any help" you hear a soft sentence, just as you stand up and leave to continue your journey. 
+1: Go back to the crossroad
+0
+0
+0
+131
+0
+0
+0
+0
+You can feel that you are on the right path. There is no snow yet, but you can feel that the air is much colder here. Right now you can only go up or come down. 
+1: Go up
+2: Go down
+0
+0
+201
+131
+0
+0
+0
+You face a thick layer of poison ivy. It' won't be easy to go through them. If you don't have anything to cut them, you will be the one that ends up with cuts.
+1: Fight the poison ivy
+0
+0
+0
+211
+0
+0
+0
+444 005 Pirate Sword
+Thick layer of poison ivy was in fact pretty thick. Now you can walk freely - that is until they grow back.
+1: Climb higher
+2: Go down 
+0
+0
+221
+191
+0
+0
+0
+You are close to leaving the forest and just on the edge of it when you find a man, sitting under a tree. 
+1: Talk with a man
+2: Climb the mountain
+0
+0
+231
+331
+0
+0
+0
+"Hello?" you greet the man. "Oh hello, are you travelling? I too, used to travel. Right now I am just resting, for most of the time" the man began his story, and it was only now that you saw a lot of wrinkles and scars on his body. 
+1: "Why don't you travel anymore?"
+2: Leave
+0
+0
+241
+331
+0
+0
+0
+"It is a horrible disease that caught me unprepared" the old man's face darkened, but after a short while he smiled and started to laugh "I am just very old, my child. Being old is truly a terrible disease, but everyone will eventualy have to face it"  
+1: "Why are you out in the wilds? It's dangerous
+2: "Not everyone will face it"
+0
+0
+261
+251
+0
+0
+0
+"Yes, yes you are right. Some species never get old, aren't they lucky?" the old man began to look sad "Or some people too, they never get a chance to get old, don't they? Just like Aurora"
+1: "Who is Aurora?" 
+0
+0
+0
+271
+0
+0
+0
+0
+"It is sometimes more dangerous to stay inside a safe place" the old man laughed "Nobody ever believed me, so why should I go back? I have responsibilities and they think I am crazy" You started to worry about the stranger as the words he spoke didn't made any sense. "But I need to look out for the Aurora" he added and smiled.
+1: "Who is Aurora?"
+0
+0
+0
+271
+0
+0
+0
+0
+"Oh, Aurora!" the man looked pleased as you asked this question "The little princess Aurora. She is beautiful and caring and kind and smart. The best daughter anyone could have." The man looked at the castle silhouette in the far away "she is the king's daughter and I am the one responsible for her safety" You looked at the man for a second. As far as you knew the king does not have any children. Were you not informed right? Or did the man was just telling some stories he made up?
+1: "Where is Aurora now?"
+2: "Are you sure, you didn't made it up?"
+0
+0
+281
+291
+0
+0
+0
+"She is playing in the garden, can't you see it?" the man pointed toward the snowy peak "the garden bloomed beautifly this spring, doesn't it?"
+1: Leave
+0
+0
+0
+301
+0
+0
+0
+0
+"Ah, you don't believe me?" the man scratched his head "it doesn't matter, it never did, as long as the little princess is happy"
+1: Leave
+0
+0
+0
+301
+0
+0
+0
+0
+"Wait!" the old man called for you just as you were leaving "are you going to meet her? If you are, can you give it to her? Tell her it's from her uncle Broderick" The man opened his palm with a wooden figure of a horse inside it. 
+1: Take it with you
+2: Don't take it
+0
+0
+311
+321
+0
+0
+222 Wooden horse
+"Thank you, you are such a nice person!" the old man smiled at you, as you walk away
+1: Leave
+0
+0
+0
+331
+0
+0
+0
+0
+"Oh, I understand it" the man's face doesn't show any emotions at all "I will give it to her myself"
+1: Leave
+0
+0
+0
+331
+0
+0
+0
+666 4
+Next chapter
