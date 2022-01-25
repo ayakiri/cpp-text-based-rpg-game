@@ -36,14 +36,12 @@ void displayGameIntro(){
     system("clear");
 }
 
-// smierc
-void death(int death){
-    if(death){
-        std::cout << "You lost all your health points!\n";
-        std::cout << "Unfortunatly it is the end of your journey\n\n";
-        
-        exit(0);
-    }
+
+//obrazenia z innego powodu niz walka
+void suffer(std::string damage, std::string reason){
+    std::cout << "You have suffered from " << reason << ".\n";
+    std::cout << "You lose " << stoi(damage) << " health points.\n\n";
+    newHero.dealDamage(stoi(damage));
 }
 
 // walka 
@@ -57,9 +55,7 @@ void enemyEncounter(std::string damage, std::string necessaryItem){
     } else {
         std::cout << "The enemy is too powerfull!\n";
         std::cout << "You lose " << stoi(damage) << " health points!\n\n";
-        newHero.health = newHero.health - stoi(damage);
-        death({ newHero.checkHealth() });
-        std::cout << "You currently have " << newHero.health << " health points!\n\n";
+        newHero.dealDamage(stoi(damage));
     }
 }
 
@@ -103,6 +99,29 @@ void gameOver(std::string deathReason){
     exit(0);
 }
 
+// wybor zakonczenia
+void chooseEnding(){
+    system("clear");
+    std::string endingFile;
+    if(newHero.checkItems("Wooden horse")){
+        endingFile = "endGood.txt";
+    } else if(newHero.health > 40){
+        endingFile = "endNeutral.txt";
+    } else {
+        endingFile = "endBad.txt";
+    }
+    
+    std::string line;
+    std::ifstream ending(endingFile);
+    if(ending.is_open()){        
+        for(int lineId = 1; getline(ending, line); lineId++){
+            std::cout << line << "\n";
+        }
+    }
+    
+    exit(0);
+}
+
 // sprawdz dodatkowa akcje
 void checkAction(std::string action){
     switch(stoi(action.substr(0, 3))){
@@ -119,10 +138,13 @@ void checkAction(std::string action){
             enemyEncounter(action.substr(4, 3), action.substr(8, action.size()));
             break;
         case 555:
-            
+            chooseEnding();
             break;
         case 666:
             nextChapter();
+            break;
+        case 777:
+            suffer(action.substr(4, 3), action.substr(8, action.size()));
             break;
     }
 }
@@ -200,5 +222,15 @@ void nextChapter(){
     newStory.currentChapter++;
     newStory.currentPage = 1;
     
+    beginChapter(newStory.currentChapter);
+}
+
+// zacznij nowa opowiesc
+void beginStory(){
+    newHero.createHero();
+    newStory.resetStory();
+    //displayGameIntro();
+    
+    // zacznij gre    
     beginChapter(newStory.currentChapter);
 }

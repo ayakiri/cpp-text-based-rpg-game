@@ -1,0 +1,152 @@
+0
+The road up is really hard. Better move fast and find the shortes way up or you will suffer from the cold.
+1: Go up
+0
+0
+0
+11
+0
+0
+0
+777 002 cold
+The cold is unbearable. Here you can go left and take a longer, but safer road, or turn right, but you might face some monsters
+1: Go left
+2: Go right
+0
+0
+21
+51
+0
+0
+777 002 cold
+The safer option is always the best, when you want to success in your adventure in one piece. There is only path forward
+1: Go straight
+2: Go back
+0
+0
+31
+11
+0
+0
+777 003 cold
+This road seems to take forever
+1: Follow the path
+0
+0
+0
+41
+0
+0
+0
+777 002 cold
+Finally you saw the crossroad in the far
+1: Go to the crossroads
+0
+0
+0
+71
+0
+0
+0
+0
+Time is ticking, so there is no time for detours. In the far you can see someone. It looks like a tall man, but when you get closer you notice his dark skin and black eyes. A darkelf, if you don't have something to bribe him with it might get hard. 
+1: Fight creature
+2: Go back
+0
+0
+61
+11
+0
+0
+444 020 Strange sugar
+You managed to get past an elf. Now you see crossroads ahead of you.
+1: Go to the crossroads
+0
+0
+0
+71
+0
+0
+0
+0
+You are at the crossroads when a blizzard occurs. You are close but you need to find a right path really soon. There are three roads, but you can't see where they lead. 
+1: Go straight
+2: Go left
+3: Go right
+0
+101
+131
+81
+0
+777 005 snow storm
+You head right and face a huge creature. It's probably an ice golem, if only you had something to quickly climb the mountain, then it might never reach you.  
+1: Fight monster
+0
+0
+0
+91
+0
+0
+0
+444 030 Grappling hook
+Leaving ice golem behind you, you continue your journey. But it looks like it is not the right path.
+1: Go back
+0
+0
+0
+71
+0
+0
+0
+777 004 snow storm
+You try to move as quickly as you could in this weather. You can go back to the crossroads or climb higher.
+1: Go up
+2: Go down
+0
+0
+111
+71
+0
+0
+777 005 snow storm
+The weather doesn't change, but there is still possibility of going higher. 
+1: Go up
+2: Go down
+0
+0
+121
+101
+0
+0
+777 004 snow storm
+There is nothing here! You have no other choice than to go back and chose different path.
+1: Go back
+0
+0
+0
+111
+0
+0
+0
+777 003 snow storm
+You turn left and see a silhouette of some mansion. You did it!
+1: Enter the mansion with the key
+2: Look for a different entrence
+0
+0
+151
+141
+0
+0
+777 003 snow storm
+You walk around the house to see different entrence. It's really cold, but you see one window, near the entrance that is opened. 
+1: Enter through the window
+2: Enter through the main entrence
+0
+0
+151
+151
+0
+0
+666 5
+Next chapter

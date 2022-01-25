@@ -13,6 +13,11 @@ class currentPageClass{
         int currentAnswers[4] = {1, 1, 1, 1};
         std::string fileName;
         
+        //resetuj opowiesc 
+        void resetStory(){
+            currentChapter = 1;
+            currentPage = 1; 
+        }
                 
         // wybierz ktory chapter ma byc pobrany
         std::string returnChapterFileName(int chapter){
@@ -27,10 +32,10 @@ class currentPageClass{
                     fileName = "chapThree.txt";
                     break;
                 case 4:
-                    fileName = "chapOne.txt";
+                    fileName = "chapFour.txt";
                     break;
                 case 5:
-                    fileName = "chapOne.txt";
+                    fileName = "chapFive.txt";
                     break;
             }
             return fileName; 
@@ -86,6 +91,7 @@ class playerClass {
                 name = "Hero";
             }
             
+            currentItems.clear();
             isDead = false;
             health = 100;
                 
@@ -110,6 +116,23 @@ class playerClass {
             void heal(int hp){
                 health = health + hp;
                 std::cout << "\nYou have healed your wounds. \n";
+                std::cout << "You currently have " << health << " health points!\n\n";
+            }
+            
+        // death
+            void heroDeath(int death){
+                if(death){
+                    std::cout << "You lost all your health points!\n";
+                    std::cout << "Unfortunatly it is the end of your journey\n\n";
+        
+                    exit(0);
+                }
+            }
+            
+        // zabierz hp
+            void dealDamage(int damage){
+                health = health - damage;
+                heroDeath({ checkHealth() });
                 std::cout << "You currently have " << health << " health points!\n\n";
             }
 };

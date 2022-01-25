@@ -1,0 +1,102 @@
+0
+You enter an abandoned mansion. You can hear a soft voice in the room in front of you. There is no doubt - it is the ghost you are looking for. There is no need to sneak or hide. With confidence you open the door.
+1: Face the ghost
+0
+0
+0
+11
+0
+0
+0
+0
+You opened the door and see a ghost of a really young girl. She is dressed in a pretty, but really simple dress. "You found me!" the ghost looked at you with a stoic face "But who are you?"
+1: "I am a ghost hunter and I came here to set you free"
+0
+0
+0
+21
+0
+0
+0
+0
+The girl seems to be a little confused "but it's not you who was supposed to find me"
+1: "Then who is it?"
+0
+0
+0
+31
+0
+0
+0
+0
+"I was plaing hide and sick with my uncle, Broderick, is always so nice to me" the girl smiled widely "you know he always makes me those little wooden figures? I have a lot of them already! But last time there was something weird about uncle Broderick. He seemed pretty nervous and told me I should hide, in the best spot I could find. Do you think I hid too well?"
+1: "What happened after that?"
+0
+0
+0
+41
+0
+0
+0
+0
+"Umm, I don't know" the girl laughed "I heard some screams, steel clashing, I think someone fought outside the mansion. I thought something was wrong and and--" 
+1: "And what?"
+0
+0
+0
+51
+0
+0
+0
+0
+"I died" ghost smiled with such an innocence that didn't match what she was saying "It was really cold and dark, but then someone took my hand and I showed up here. And I saw my papa and some crazy looking wizzard. He really had a funny mustache!" 
+1: "Your papa?"
+2: "Wizzard?"
+0
+0
+61
+71
+0
+0
+0
+"My papa, he wears a crown and really colorful clothes, but he is pretty busy, most of the time" So was that girl really a king's daughter?
+1: "Wizzard?"
+2: "What happened after that?"
+0
+0
+71
+81
+0
+0
+0
+"He looked really funny to me, but at the same time a little bit scary. I think he was the one that grabbed my hand from a dark place" 
+1: "Your papa?"
+2: "What happened after that?"
+0
+0
+61
+81
+0
+0
+0
+"My papa was happy that I was back, but the wizzard wasn't. They were arguing. The wizzard told my papa that he could talk to me only for a short while, but he wanted to keep me forever. And then, and then" the girl tried really hard to recall everything that happened here "and then my father stabbed the wizzard. There was a lot of red sauce!" So there was noone to send this poor kid home.
+1: "Is there anything else?"
+0
+0
+0
+91
+0
+0
+0
+0
+"I don't know. I don't remember much. After that night, I have never saw my papa. And I know that sometimes I get really angry, but I don't know what happens at this time" the girl for the first time looked really sad "have I done something bad?"
+1: CONTINUE
+0
+0
+0
+101
+0
+0
+0
+555
+Pick ending

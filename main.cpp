@@ -6,12 +6,7 @@ int main(void){
 
     std::cout << "Hello Adventurer! \n";
     
-    newHero.createHero();
-    
-    //displayGameIntro();
-
-    // zacznij gre    
-    beginChapter(newStory.currentChapter);
+    beginStory();
     
     std::cout << "koniec \n";
     
