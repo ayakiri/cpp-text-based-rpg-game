@@ -106,7 +106,7 @@ void chooseEnding(){
     if(newHero.checkItems("Wooden horse")){
         endingFile = "endGood.txt";
     } else if(newHero.health > 40){
-        endingFile = "endNeutral.txt";
+        endingFile = "endNautral.txt";
     } else {
         endingFile = "endBad.txt";
     }
